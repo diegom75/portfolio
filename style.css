@@ -1,0 +1,31 @@
+#paragraph1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section-1 {
+    margin-top:10%;
+}
+
+.body-text {
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}
+
+#navbar {
+    margin-top:2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    gap:50px;
+}
+
+a, a:visited {
+    color: blue;
+    text-decoration: none;
+}
