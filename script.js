@@ -12,6 +12,7 @@ let contactButton = document.getElementById("contact")
 // functions
 
 homeButton.addEventListener(onclick, showHome());
+homeButton.addEventListener(onclick, showAbout());
 
 function showHome() {
     siteDisplay.innerHTML = ""
