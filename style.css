@@ -23,3 +23,24 @@ body {
     font-size:20px;
     transition: ease-in-out .2s;
 }
+
+.showcase {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.showcase-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
