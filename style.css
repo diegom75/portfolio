@@ -25,22 +25,14 @@ body {
 }
 
 .showcase {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ align-content: center;
 }
 
 .showcase-text {
-    display: flex;
-    flex-direction: column;
+    width: 400px;
+    height: 100px;
 }
 
-.showcase-images {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 10px;
-}
