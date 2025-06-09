@@ -36,3 +36,52 @@ body {
     height: 100px;
 }
 
+/* mobile sizing */
+
+@media (max-width:800px) {
+    
+    .showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+    .showcase-text {
+        text-align: center;
+        margin-left:200px;
+    }
+
+}
+
+@media (max-width:700px) {
+    
+    .showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+    .showcase-text {
+        text-align: center;
+        margin-left:125px;
+    }
+
+}
+
+@media (max-width:500px) {
+    
+    .showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+    .showcase-text {
+        text-align: center;
+        margin-left:50px;
+    }
+
+}
